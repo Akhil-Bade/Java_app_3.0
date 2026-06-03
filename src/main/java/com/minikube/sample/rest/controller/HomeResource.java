@@ -37,5 +37,17 @@ public class HomeResource {
         private Integer id;
         private String place;
         private String value;
+	
+  
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setPlace(String place) {
+        this.place = place;
     }
 }
+
+}    
+
