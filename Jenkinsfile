@@ -4,6 +4,10 @@ pipeline{
 
     agent any
     //agent { label 'Demo' }
+    tools {
+        jdk 'JDK17'
+        maven 'Maven3'
+    }
 
     parameters{
 
